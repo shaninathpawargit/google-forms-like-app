@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Form-like App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Google Form-like Application</h1>
+
+    <!-- Form Creation -->
+    <section id="form-builder">
+      <h2>Create a Form</h2>
+      <div id="form-fields"></div>
+      <div class="controls">
+        <button onclick="addField('text')">Add Text Field</button>
+        <button onclick="addField('radio')">Add Radio Field</button>
+        <button onclick="addField('checkbox')">Add Checkbox Field</button>
+        <button onclick="saveForm()">Save Form</button>
+      </div>
+    </section>
+
+    <!-- Form Management -->
+    <section id="form-list">
+      <h2>Saved Forms</h2>
+      <div id="saved-forms"></div>
+    </section>
+
+    <!-- Form Responses -->
+    <section id="responses" style="display: none;">
+      <h2>Form Responses</h2>
+      <div id="response-data"></div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

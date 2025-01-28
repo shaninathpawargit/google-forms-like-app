@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "es5", // Or a higher target if your browser support allows
+      "module": "commonjs", // Or "es2015" or "esnext"
+      "outDir": "dist", // Output directory for compiled JavaScript
+      "strict": true, // Enforce strict type checking
+      "sourceMap": true // Generate source maps for debugging
+    }
+  }
